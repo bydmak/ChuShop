@@ -5,8 +5,8 @@ const Search = (props) => {
     const { onChange, value } = props;
 
     return <TextField 
-    label='search'
-    type='search' 
+    label='Поиск'
+    type='Поиск' 
     variant="standard"
     fullWidth
     value={value} 

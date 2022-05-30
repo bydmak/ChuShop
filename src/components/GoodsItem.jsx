@@ -5,7 +5,7 @@ const GoodsItem = (props) => {
     const { name, price, poster, setOrder } = props;
 
     return (
-        <Grid item xs={12} md={4}>
+        <Grid item xs={6} md={3}>
             <Card
                 sx={{
                     height : '100%'
